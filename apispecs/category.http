@@ -1,0 +1,15 @@
+### GET ALL CATEGORY
+GET http://localhost:3000/api/v1/category
+
+### GET SINGLE CATEGORY
+GET http://localhost:3000/api/v1/category/:id
+
+### CREATE NEW CATEGORY
+POST http://localhost:3000/api/v1/category
+Content-Type: application/json
+
+{
+    "name": "Presentation",
+    "slug": "presentation-slug"
+}
+

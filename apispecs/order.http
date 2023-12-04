@@ -1,0 +1,17 @@
+### GET ALL ORDER
+GET http://localhost:3000/api/v1/order
+
+### GET ALL ORDER BY USERID
+GET http://localhost:3000/api/v1/order?userid=clpjnfayd00021q033txpqoog
+
+### GET ALL ORDER BY PRODUCTID
+GET http://localhost:3000/api/v1/order?productid=clpqif15200017bsizdm1yp2n
+
+### CREATE ORDER
+POST http://localhost:3000/api/v1/order
+Content-Type: application/json
+
+{
+    "userId": "clpjnfayd00021q033txpqoog",
+    "productId": "clpqif15200017bsizdm1yp2n"
+}

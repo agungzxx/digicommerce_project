@@ -1,0 +1,14 @@
+### GET ALL COMMENTS BY PRODUCT ID
+GET http://localhost:3000/api/v1/comment?productid=:product-id
+
+
+
+### CREATE COMMENTS
+POST http://localhost:3000/api/v1/comment
+Content-Type: application/json
+
+    {
+        "body": "comment ke-1",
+        "userId" : "clpjnfayd00021q033txpqoog",
+        "productId": "clpqif15200017bsizdm1yp2n"
+      }

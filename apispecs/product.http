@@ -1,0 +1,25 @@
+### GET ALL PRODUCT
+GET http://localhost:3000/api/v1/product
+
+### GET PRODUCT BY ID
+GET http://localhost:3000/api/v1/product/:id
+
+### GET PRODUCT BY SLUG
+GET http://localhost:3000/api/v1/product?slug=:product-slug
+ 
+### CREATE PRODUCT 
+POST http://localhost:3000/api/v1/product
+Content-Type: application/json
+
+    {
+        "name" : "Kopi kenangan",
+        "slug" : "kopi-kenangan",
+        "shortDescription": "kopi enak dan murah",
+        "overview" : "kopinya para pelajar hemat biaya murah dan enak",
+        "price" : 90,
+        "featuredImage" : "-",
+        "file" : "-",
+        "images": "-",
+        "categoryId" : "clpqgei1q000138fyw4qpmdqp",
+        "userId" : "clpjnfayd00021q033txpqoog"
+      }
