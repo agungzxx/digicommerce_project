@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { Template } from "../Templates";
 import Link from "next/link";
 import { API_URL } from "@/config/apiUrl";
-import { JsonWebTokenError } from "jsonwebtoken";
 
 export const Login = () => {
   const [datalogin, setDataLogin] = useState({
@@ -38,7 +37,7 @@ export const Login = () => {
       <section className="flex flex-col justify-center space-y-4">
         <input
           name="email"
-          type="text"
+          type="email"
           placeholder="email@mail.com"
           onChange={handleChange}
         />
